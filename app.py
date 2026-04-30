@@ -131,8 +131,8 @@ with tabs[1]:
     st.header("Column Designer")
     c1, c2, c3 = st.columns(3)
     with c1:
-        bx = st.number_input("Column size b_x (mm)", 250.0, 2000.0, 500.0, 10.0, key="col_bx")
-        by = st.number_input("Column size b_y (mm)", 250.0, 2000.0, 500.0, 10.0, key="col_by")
+        bx = st.number_input("Column size b_x (mm)", 200.0, 2000.0, 500.0, 10.0, key="col_bx")
+        by = st.number_input("Column size b_y (mm)", 200.0, 2000.0, 500.0, 10.0, key="col_by")
         cover_c = st.number_input("Clear cover (mm)", 25.0, 100.0, 40.0, 5.0, key="col_cover")
         tie_dia = st.selectbox("Tie dia (mm)", [10, 12, 16], index=0, key="col_tie")
         bar_dia_c = st.selectbox("Longitudinal bar dia (mm)", [16, 20, 25, 28, 32, 36], index=2, key="col_bar")
